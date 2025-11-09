@@ -1,0 +1,63 @@
+/* Student Name: Joanne Brennan Elliott */
+/* Student Number: X23410001*/
+/* Web Design and Client Side Scripting */
+/* Week 8 Lab 8.11.2025  -*/
+
+body{
+
+	font-family: Arial, sans-serif;		 /* Clean, modern font */		
+	color:black;      					/* Black text for readability */
+	font-weight:bold;
+	background-color:#f8f9fa;
+ 	display:flex;
+	flex-direction:column;
+ 	align-items:center;
+ 	height:100vh;
+	text-align:center;				 	 /* Centered text alignment */
+  	border-radius: 8px;                  /* Slightly rounded corners for a softer look */
+}
+ 
+h2{
+	 font-size:3.5rem;
+ 	text-align:center;
+ 	margin-bottom:15px;	
+ }
+ 
+ /* displaying three buttons  */
+.options{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.options{
+	margin-bottom:30px;
+}
+ 
+ .options button{
+ 	width:100%;
+ 	margin-top:15px;
+ 	padding:8px;
+ 	background-color:#007bff;
+ 	color:white;
+ 	border:none;
+ 	border-radius:50px;
+ 	cursor:pointer;	
+ }
+.options button:hover{
+ 	background-color:#0056b3;
+ }
+  
+ #playerDisplay{
+	 font-size: 1.5rem;
+ }
+ 
+ #computerDisplay{
+	 font-size: 1.5rem;
+ }
+  
+  #resultDisplay {
+	  font-size: 3rem;
+	  margin: 30px 0;
+  }
+

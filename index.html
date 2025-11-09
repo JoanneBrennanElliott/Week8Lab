@@ -1,0 +1,51 @@
+<!-- Student Name: Joanne Brennan Elliott 
+Student Number: X23410001 
+Web Design and Client Side Scripting 
+Week 8 Lab 8.11.2025  
+You may use any method of user input and any method of 
+visualisation (alerts, document.getElement etc), as you will be marked on the 
+JavaScript logic around your if statements
+
+When you have completed your game, please commit to GitHub
+ and upload a text document with the link here
+ 
+ // input String options = {"Rock", "Paper", "Scissors"};
+ 
+ The Basic Rules of RPS
+Rock beats Scissors.
+Scissors beat Paper.
+Paper beats Rock.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+		<title>My week8 page!</title>
+		<link rel="stylesheet" href="style/style.css"/>    <!-- Link to external CSS file -->
+
+	</head>
+	
+	<body id="body">
+	
+  <section class="game">
+        <!--Title -->
+        <div class="title"><h2>Rock Paper Scissor</h2></div>
+      
+        
+          <!--Options available to player to play game -->
+        <div class="options">
+            <button onclick="playGame('rock')">Rock</button>
+            <button onclick="playGame('paper')">Paper</button>
+            <button onclick="playGame('scissors')">Scissors</button>    
+        </div>
+        
+  
+        <div id="playerDisplay">Player : </div>
+        <div id="computerDisplay">Computer : </div>    
+		<div id="resultDisplay"> </div>
+
+    </section>
+		<script src="script.js"></script>
+	</body>	
+</html>

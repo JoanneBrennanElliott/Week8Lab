@@ -1,0 +1,17 @@
+https://joannebrennanelliott.github.io/jbe.github.io/
+
+
+<!-- Student Name: Joanne Brennan Elliott -->
+<!-- Student Number: X23410001-->
+Week 8 Lab 09.11.2025  	Additional work added 
+github repository listed above
+
+When you have completed your game, please commit to GitHub
+ and upload a text document with the link here
+ 
+ // input String options = {"Rock", "Paper", "Scissors"};
+ 
+ The Basic Rules of RPS
+Rock beats Scissors.
+Scissors beat Paper.
+Paper beats Rock.
