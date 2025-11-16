@@ -20,23 +20,39 @@ Week 8 Lab 8.11.2025
 		let result = "";
 		
 		if (playerChoice === computerChoice) {
-			result = "Its a tie!"
+			result = "It's a tie!"
 		}
+
 		else {
 			switch(playerChoice){
 				case "rock":
-					result=(computerChoice ==="scissors") ? "You win!" : "You lose!"
-					break;
+
+					if (String(computerChoice).toLowerCase() === "scissors") {
+						result = "You win!";
+					} else {
+						result = "You lose!";
+					}
+				break;
+
 				case "paper":
-					result=(computerChoice ==="rock") ? "You win!" : "You lose!"
-					break;
+					if (String(computerChoice).toLowerCase() === "rock") {
+						result = "You win!";
+					} else {
+						result = "You lose!";
+					}
+				break;
+
 				case "scissors":
-					result=(computerChoice ==="paper") ? "You win!" : "You lose!"
-					break;
+					if (String(computerChoice).toLowerCase() === "paper") {
+						result = "You win!";
+					} else {
+						result = "You lose!";
+					}
+				
+				break;
 			}
 		}
-		//playerDisplay.textContent = 'PLAYER: ${playerChoice}';
-		//computerDisplay.textContent = 'COMPUTER: ${computerChoice}';
+		
 		playerDisplay.textContent = "Player = " +playerChoice;
 		computerDisplay.textContent = "Computer = "+computerChoice;
 		resultDisplay.textContent = result;
