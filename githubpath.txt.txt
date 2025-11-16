@@ -1,4 +1,6 @@
-https://joannebrennanelliott.github.io/jbe.github.io/
+https://github.com/JoanneBrennanElliott/Week8Lab.git
+
+https://joannebrennanelliott.github.io/Week8Lab/
 
 
 <!-- Student Name: Joanne Brennan Elliott -->
